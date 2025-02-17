@@ -116,7 +116,7 @@ namespace MyApp
                         Console.WriteLine("Ladder, you got another turn");
                         if (player2Position + diceValue <= 100) player2Position += diceValue;
                         if (player2Position == 100) break;
-                        Console.WriteLine("Player 1 position: " + player2Position);
+                        Console.WriteLine("Player 2 position: " + player2Position);
                         continue;
                     }
 
