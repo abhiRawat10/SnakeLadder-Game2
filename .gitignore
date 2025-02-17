@@ -1,0 +1,39 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.cache
+*.sw?
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+project.lock.json
+packages/
+!packages/repositories.config
+
+# Entity Framework
+*.mdf
+*.ldf
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+
+# ASP.NET
+appsettings*.json
+
+# Docker
+**/[Dd]ockerfile
+**/[Dd]ocker-compose*
